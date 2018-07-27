@@ -9,10 +9,16 @@ import { environment } from '../environments/environment';
 
 
 import { AppComponent } from './app.component';
+import { CustomerDetailsComponent } from './customers/customer-details/customer-details.component';
+import { CustomerListComponent } from './customers/customer-list/customer-list.component';
+import { CustomerCreateCustomerComponent } from './customers/customer-create-customer/customer-create-customer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerDetailsComponent,
+    CustomerListComponent,
+    CustomerCreateCustomerComponent
   ],
   imports: [
     BrowserModule,
